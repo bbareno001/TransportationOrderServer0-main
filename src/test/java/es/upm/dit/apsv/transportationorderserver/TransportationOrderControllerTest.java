@@ -136,7 +136,7 @@ public void testGetOrder() throws Exception {
 
      RequestBuilder request = MockMvcRequestBuilders
 
-     .get("/transportationorders/8962")
+     .get("/transportationorders/8962ZKR")
 
      .accept(MediaType.APPLICATION_JSON);
 
