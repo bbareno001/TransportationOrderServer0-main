@@ -151,7 +151,7 @@ public void testGetOrder() throws Exception {
 
               MvcResult result = mockMvc.perform(request)
 
-              .andExpect(status().is4xxClientError())
+              .andExpect(status().isOk())
 
               //.andExpect(jsonPath("$", hasSize(20)))
 
